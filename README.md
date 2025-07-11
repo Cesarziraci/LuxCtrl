@@ -64,8 +64,8 @@
 
 ## 📷 Preview
 
-![LuxCtrl PCB](Images/LuxCtrl_3D.png)
 ![Demo](Images/2025-07-11-15-48-03.gif)
+![LuxCtrl PCB](Images/LuxCtrl_3D.png)
 
 ---
 
