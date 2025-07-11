@@ -79,3 +79,13 @@ Intelligent outdoor lighting controller for facades and poles, based on ESP-WROO
 `luxctrl` ✨
 
 ---
+
+## 🛡️ Disclaimer
+
+> ⚠️ ** Disclaimer**:  
+> This board handles hazardous voltages (230V AC). 
+> Ensure appropriate safety precautions are followed during assembly, soldering, and installation.
+> The use of a protective enclosure, grounding (PE), and separation between power and control domains is mandatory for a safe installation.
+>
+> **This project is provided as is, with no warranty.**
+> I am not responsible for damage, accidents, injuries, or failures resulting from improper use, modification, or implementation of this design.
