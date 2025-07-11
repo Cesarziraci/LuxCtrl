@@ -63,7 +63,8 @@ Intelligent outdoor lighting controller for facades and poles, based on ESP-WROO
 
 ## 📷 Preview
 
-![LuxCtrl PCB](doc/images/luxctrl_render.png)
+![LuxCtrl PCB](Images/LuxCtrl_3D.png)
+![Demo](Images/2025-07-11-15-48-03.gif)
 
 ---
 
