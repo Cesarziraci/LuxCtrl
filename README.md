@@ -81,8 +81,3 @@ Intelligent outdoor lighting controller for facades and poles, based on ESP-WROO
 `luxctrl` ✨
 
 ---
-
-## 🛡️ Disclaimer
-
-> ⚠️ ** Disclaimer**:  
-
