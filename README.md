@@ -76,6 +76,8 @@ Intelligent outdoor lighting controller for facades and poles, based on ESP-WROO
 ## ✨ Author
 
 **Cesar** – *Mechatronics & Embedded Systems Engineer*  
-[GitHub](https://github.com/Cesarziraci) • [LinkedIn](www.linkedin.com/in/cesarziraci) • `luxctrl` ✨
+[GitHub](https://github.com/Cesarziraci) 
+[LinkedIn](www.linkedin.com/in/cesarziraci) 
+`luxctrl` ✨
 
 ---
