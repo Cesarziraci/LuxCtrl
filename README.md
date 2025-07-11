@@ -1,9 +1,10 @@
 # LuxCtrl
 
-Intelligent outdoor lighting controller for facades and poles, based on ESP-WROOM-02 and opto-coupled relays. Allows remote control via UDP and MQTT protocols, with secure separation between power and digital domains.
+### Smart WiFi lighting controller for outdoor use, based on ESP-WROOM-02 and isolated relays. Remotely control facade and post lights via UDP or MQTT, with safe AC–DC separation.
+
 ---
 
-## 🧠 Description (EN)
+## 🧠 Description 
 
 **LuxCtrl** is a WiFi-enabled smart lighting controller designed to automate outdoor lights (facade and post lights). Built around the **ESP-WROOM-02**, it features:
 
@@ -63,7 +64,8 @@ Intelligent outdoor lighting controller for facades and poles, based on ESP-WROO
 
 ## 📷 Preview
 
-![LuxCtrl PCB](doc/images/luxctrl_render.png)
+![LuxCtrl PCB](Images/LuxCtrl_3D.png)
+![Demo](Images/2025-07-11-15-48-03.gif)
 
 ---
 
