@@ -37,7 +37,8 @@
                                               │
              UDP (CMD)                        ▼
 [ Raspberry Pi UDP Server ]  ⇄  [ ESP32 Node (UDP 6000) ]
-             UDP (ACK)                         
+             UDP (ACK)                        ▼
+                                              |
 
 ### 📁 Folder Structure in raspbery
 ├── app.py              # Flask web app
