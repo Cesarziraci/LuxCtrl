@@ -1,6 +1,6 @@
-# 🐵 Nodo de ChimpControl – Firmware
+# 🐵 Nodo de LuxCtrl – Firmware
 
-Este firmware está diseñado para ejecutarse en un ESP8266 (o ESP32) como parte del sistema **ChimpControl**.  
+Este firmware está diseñado para ejecutarse en un ESP8266 (o ESP32) como parte del sistema **LuxCtrl**.  
 El nodo recibe comandos de la Raspberry Pi (servidor central) mediante UDP, activa/desactiva un relé conectado a una luz exterior, y envía una respuesta (`ACK`) con el estado actual.
 
 ---
