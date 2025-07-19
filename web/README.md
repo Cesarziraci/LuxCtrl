@@ -1,17 +1,15 @@
-# 💡 ChimpControl – Smart UDP Light Control System
+# 💡 LuxCtrl  – Smart UDP Light Control System
 
-**ChimpControl** is a lightweight IoT system for controlling smart light nodes via UDP communication and a sleek Flask-based web interface. It includes:
+**LuxCtrl** is a lightweight IoT system for controlling smart light nodes via UDP communication and a sleek Flask-based web interface. It includes:
 
-- 🔌 UDP Server on a Raspberry Pi  
-- 💡 ESP32-based Node that receives commands and replies with status  
 - 🌐 Web panel to send manual commands and schedule actions  
-- ☁️ Public access via DuckDNS + Nginx reverse proxy  
+- ☁️ Private access via DuckDNS + Nginx reverse proxy  
 
 ---
 
 ## 📸 Preview
 
-![Web Dashboard](docs/web_dashboard.png)  
+![Web Dashboard](web_dashboard.png)  
 *Main control panel interface.*
 
 ---
@@ -23,19 +21,6 @@
 - Handles node discovery and registration  
 - Forwards "ON" / "OFF" commands to nodes  
 - Waits for ACKs and stores current state in `estados.json`  
-
-### 2. 💡 ESP32 Node
-
-- Listens on UDP port `6000`  
-- Responds to `DISCOVER_REQUEST`  
-- Receives `ENCENDER` / `APAGAR` commands  
-- Replies with:  
-  ```json
-  {
-    "ack": "ON" or "OFF",
-    "uuid": "...",
-    "key": "..."
-  }
 
 ### 3. 🌐 Web Interface (Flask + HTML/CSS/JS)
 - Node selector
@@ -54,7 +39,7 @@
 [ Raspberry Pi UDP Server ]  ⇄  [ ESP32 Node (UDP 6000) ]
              UDP (ACK)                         
 
-### 📁 Folder Structure
+### 📁 Folder Structure in raspbery
 ├── app.py              # Flask web app
 ├── udp_server.py       # UDP command handler and discovery
 ├── estados.json        # Light state cache
