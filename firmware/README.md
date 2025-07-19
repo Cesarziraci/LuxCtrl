@@ -32,13 +32,14 @@ El nodo recibe comandos de la Raspberry Pi (servidor central) mediante UDP, acti
 
 | Pin del ESP | Elemento conectado    |
 |-------------|-----------------------|
-| D1 (GPIO5)  | Relé (controla luz)   |
+| D1 (GPIO5)  | Relé (fachada)        |
+| D2 (GPIO6)  | Relé (Postes)         |
 | GND         | Relé GND              |
-| VCC         | Relé VCC (3.3V o 5V)  |
+| VCC         | Relé VCC (3.3V)       |
 
 ---
 
-## 🧠 Estructura básica del firmware
+## 🧠 Estructura básica del firmware (Ejemplo)
 
 ```cpp
 WiFiUDP udp;
