@@ -6,8 +6,8 @@
 
 WiFiUDP Udp;
 
-const char* ssid = "DIGIFIBRA-cNz5";
-const char* password = "bD2RbkRGAR";
+const char* ssid = "***";
+const char* password = "***";
 
 const int UDP_SERVER_PORT = 5005;
 const int UDP_NODE_PORT = 6000;
